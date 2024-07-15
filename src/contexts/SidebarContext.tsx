@@ -1,12 +1,14 @@
-import { FC, useState, createContext } from 'react';
-type SidebarContext = {
+import { FC, useState, createContext } from "react";
+
+// Define your type with a different name to avoid conflict
+type SidebarContextType = {
   sidebarToggle: any;
   toggleSidebar: () => void;
   closeSidebar: () => void;
 };
 
-export const SidebarContext = createContext<SidebarContext>(
-  {} as SidebarContext
+export const SidebarContext = createContext<SidebarContextType>(
+  {} as SidebarContextType
 );
 
 export const SidebarProvider: FC = ({ children }) => {
