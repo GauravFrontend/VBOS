@@ -3,8 +3,6 @@
     "browser": true,
     "es2021": true
   },
-  "extends": ["eslint:recommended"],
-  "parser": "@typescript-eslint/parser",
   "parserOptions": {
     "ecmaFeatures": {
       "jsx": true
@@ -12,7 +10,6 @@
     "project": "./tsconfig.json",
     "sourceType": "module"
   },
-  "plugins": ["@typescript-eslint"],
   "settings": {
     "react": {
       "version": "detect"

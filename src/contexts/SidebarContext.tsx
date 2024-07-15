@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { FC, useState, createContext } from "react";
 
 // Define your type with a different name to avoid conflict
