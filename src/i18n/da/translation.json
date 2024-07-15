@@ -1,0 +1,10 @@
+{
+    "LOGIN_PAGE": {
+        "TITLE": "Login - Basic",
+        "LOGO_PLACEHOLDER": "logo here",
+        "SIGN_IN": "Sign in",
+        "FILL_FIELDS": "Fill in the fields below to sign into your account.",
+        "NO_ACCOUNT": "Don’t have an account, yet?",
+        "SIGN_UP_HERE": "Sign up here"
+    }
+}
